@@ -7,7 +7,7 @@
 ```bash
 Usage:
 
-wget https://raw.githubusercontent.com/thebadgateway/script/master/superspeed.sh      
+wget https://raw.githubusercontent.com/thebadgateway/Superspeed/master/superspeed.sh      
 chmod +x superspeed.sh
 ./superspeed.sh
 
