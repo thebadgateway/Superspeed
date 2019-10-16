@@ -70,7 +70,7 @@ while :; do echo
 done
 
 if [[ ${telecom} == 1 ]]; then
-        telecomName="电信"
+        telecomName="telecommunications"
         echo -e "\nChoose the position closest to you"
     echo -ne "1. North 2. South"
     while :; do echo
@@ -350,9 +350,9 @@ result() {
     latency=`cat /tmp/speed.log | awk -F ':' '/Hosted/{print $2}'`
     clear
     echo "$hostby"
-    echo "延迟  : $latency"
-    echo "上传  : $upload"
-    echo "下载  : $download"
+    echo "delay  : $latency"
+    echo "Upload  : $upload"
+    echo "Download  : $download"
     echo -ne "\n current time: "
     echo $(date +%Y-%m-%d" "%H:%M:%S)
 }
