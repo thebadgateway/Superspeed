@@ -7,11 +7,10 @@
 ```bash
 Usage:
 
-| No.      | Bash Command                    
-|----------|---------------------------------
-| 1        | wget https://raw.githubusercontent.com/oooldking/script/master/superspeed.sh      
-| 2        | chmod +x superspeed.sh
-| 3        | ./superspeed.sh
+wget https://raw.githubusercontent.com/thebadgateway/script/master/superspeed.sh      
+chmod +x superspeed.sh
+./superspeed.sh
+
 ```
 ## Superbench.sh
 - Description: Auto test download & I/O speed & network to China script
